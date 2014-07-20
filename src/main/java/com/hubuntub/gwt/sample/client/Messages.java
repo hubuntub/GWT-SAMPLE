@@ -1,4 +1,4 @@
-package com.mycompany.example.client;
+package com.hubuntub.gwt.sample.client;
 
 /**
  * Interface to represent the messages contained in resource bundle:

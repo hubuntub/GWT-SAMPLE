@@ -1,8 +1,8 @@
-package com.mycompany.example.server;
+package com.hubuntub.gwt.sample.server;
 
-import com.mycompany.example.client.GreetingService;
-import com.mycompany.example.shared.FieldVerifier;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
+import com.hubuntub.gwt.sample.client.GreetingService;
+import com.hubuntub.gwt.sample.shared.FieldVerifier;
 
 /**
  * The server side implementation of the RPC service.

@@ -3,25 +3,25 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.mycompany</groupId>
-    <artifactId>example</artifactId>
+    <groupId>com.hubuntub.gwt</groupId>
+    <artifactId>GWT-SAMPLE</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>GWT/Maven App</name>
 
     <properties>
         <!-- Project properties -->
-        <target.jdk>1.6</target.jdk>
+        <target.jdk>1.7</target.jdk>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <webapp.directory>${project.build.directory}/${project.build.finalName}</webapp.directory>
 
         <!-- Dependencies versions -->
-        <gwt.version>2.3.0</gwt.version>
+        <gwt.version>2.6.0</gwt.version>
         <junit.version>4.8.1</junit.version>
 
         <!-- Plugin properties -->
-        <gwt-maven-plugin.version>2.2.0</gwt-maven-plugin.version>
+        <gwt-maven-plugin.version>2.6.0</gwt-maven-plugin.version>
         <maven-compiler-plugin.version>2.3.2</maven-compiler-plugin.version>
         <maven-eclipse-plugin.version>2.8</maven-eclipse-plugin.version>
         <maven-clean-plugin.version>2.4.1</maven-clean-plugin.version>
@@ -111,7 +111,7 @@
                     <copyWebapp>true</copyWebapp>
                     <runTarget>MyGwtApp.html</runTarget>
                     <mode>htmlunit</mode>
-                    <module>com.mycompany.example.MyGwtApp</module>
+                    <module>com.hubuntub.gwt.sample.MyGwtApp</module>
                 </configuration>
                 <executions>
                     <execution>

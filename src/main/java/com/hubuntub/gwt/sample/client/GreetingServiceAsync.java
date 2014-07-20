@@ -1,4 +1,4 @@
-package com.mycompany.example.client;
+package com.hubuntub.gwt.sample.client;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.rpc.AsyncCallback;

@@ -1,12 +1,12 @@
 package com.mycompany.example.client;
 
-import com.mycompany.example.client.GreetingService;
-import com.mycompany.example.client.GreetingServiceAsync;
-import com.mycompany.example.shared.FieldVerifier;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.junit.client.GWTTestCase;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.rpc.ServiceDefTarget;
+import com.hubuntub.gwt.sample.client.GreetingService;
+import com.hubuntub.gwt.sample.client.GreetingServiceAsync;
+import com.hubuntub.gwt.sample.shared.FieldVerifier;
 
 /**
  * GWT JUnit <b>integration</b> tests must extend GWTTestCase.
@@ -19,7 +19,7 @@ public class GwtTestMyGwtApp extends GWTTestCase {
    * Must refer to a valid module that sources this class.
    */
   public String getModuleName() {
-    return "com.mycompany.example.MyGwtAppJUnit";
+    return "com.hubuntub.gwt.sample.MyGwtAppJUnit";
   }
 
   /**

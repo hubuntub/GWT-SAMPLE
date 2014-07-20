@@ -1,4 +1,4 @@
-package com.mycompany.example.shared;
+package com.hubuntub.gwt.sample.shared;
 
 /**
  * <p>

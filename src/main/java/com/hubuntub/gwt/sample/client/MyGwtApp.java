@@ -1,6 +1,5 @@
-package com.mycompany.example.client;
+package com.hubuntub.gwt.sample.client;
 
-import com.mycompany.example.shared.FieldVerifier;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -16,6 +15,7 @@ import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
+import com.hubuntub.gwt.sample.shared.FieldVerifier;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
